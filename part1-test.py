@@ -24,6 +24,7 @@ else:
 
 ## Test 4. Tests the decode function
 print("Test 4")
+
 if(part1.decode(part1.encode(5.5)) == 5.5):
 	print("PASSED")
 else:
